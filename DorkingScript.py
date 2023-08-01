@@ -1,7 +1,6 @@
 #!/bin/python3
 
 import requests
-import os
 print('https://www.Example.com/')
 url=input('URL: ')
 a=url+'admin'

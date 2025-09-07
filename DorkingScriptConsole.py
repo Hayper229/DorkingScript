@@ -55,12 +55,12 @@ img_display=(f"{colorama.Back.BLACK}{colorama.Fore.RED}"+'''
 def main(url: str):
     print(img_display)
     hlp()
-    print('please enter url | URL examples <http://example.com/ | https://example.com/')
+    print('Please enter url | URL examples <http://example.com/ | https://example.com/')
     codes = [200, 300, 301, 302, 303]
     with open('testlist.txt', 'r') as f:
          save = f.read()
          savef = save.split()
-         print(f'{green}[{yellow}!{green}[{red}Search for directories and files{green}]{yellow}!{green}]{red}')
+         print(f'{green}[{yellow}!{green}[{red}Search for directorys and files{green}]{yellow}!{green}]{red}')
          url = url.rstrip('/')
          for file in savef:
              main_url=url+'/'+file

@@ -3,8 +3,8 @@ DorkingScript.py
 rename DorkingScriptConsole.py 
 date-08.08.2023.
 DorkingScript it's script for pentest
-DorkingScriptConsole.py Big update 07.09.2025
 -
+DorkingScriptConsole.py Big update 07.09.2025
 Information of update
 1. Update script
 2. Fixed errors and bugs
